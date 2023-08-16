@@ -161,7 +161,7 @@ const UserNav = () => {
 			<div className=' h-[0rem]'>
 				<div className=' bg-white backdrop-filter backdrop-blur-md bg-opacity-50 w-[70vw] mx-auto px-[3rem] py-[1rem] flex justify-between items-center rounded-3xl relative top-[2rem] shadow-gray/70 shadow-lg max-md:px-[1rem] max-md:w-[90vw] max-md:py-[0.5rem]'>
 					<div className=' '>
-						<img src={logo} alt='' className=' w-[5rem]' />
+						<img src={logo} alt='' className=' w-[5rem] max-md:w-[4rem]' />
 					</div>
 
 					<div className=''>
@@ -177,7 +177,7 @@ const UserNav = () => {
 								placeholder=' Search circle'
 								value={searchValue}
 								onChange={(e) => setSearchValue(e.target.value)}
-								className=' bg-white rounded-3xl px-[1rem] py-[0.5rem] w-[40rem] max-md:w-[10rem]'
+								className=' bg-white rounded-3xl px-[1rem] py-[0.5rem] w-[40rem] max-md:w-[13rem] max-sm:w-[10rem]'
 							/>
 							<button className=' bg-primary absolute right-[0.3rem] py-[0.4rem] rounded-3xl w-[2rem] h-[2rem] grid justify-items-center text-light text-xl'>
 								<FaSearchLocation />
@@ -193,7 +193,7 @@ const UserNav = () => {
 							<img
 								src={user.image ? user.image.url : userImage}
 								alt=''
-								className=' w-[3rem] h-[3rem] rounded-full border border-primary p-[2px] object-cover'
+								className=' w-[3rem] h-[3rem] rounded-full border border-primary p-[2px] object-cover max-md:w-[2rem] max-md:h-[2rem]'
 							/>
 						</div>
 					</div>
