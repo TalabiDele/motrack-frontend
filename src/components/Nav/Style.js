@@ -42,6 +42,17 @@ export const Container = styled.div`
 					color: #eef6ff;
 				}
 			}
+
+			@media screen and (max-width: 768px) {
+				width: 15rem;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			width: 90%;
+
+			img {
+				width: 7rem;
+			}
 		}
 	}
 `

@@ -30,6 +30,10 @@ export const Container = styled.div`
 		span {
 			/* color: rgba(0, 67, 241, 1); */
 		}
+
+		@media screen and (max-width: 768px) {
+			width: 90%;
+		}
 	}
 
 	div.wrapper {

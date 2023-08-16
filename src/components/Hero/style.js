@@ -52,6 +52,22 @@ export const Container = styled.div`
 				color: #2b478b;
 			}
 		}
+
+		@media screen and (max-width: 768px) {
+			grid-template-columns: repeat(1, 1fr);
+			padding-top: 5rem;
+			text-align: center;
+
+			p {
+				margin: 0rem auto 1rem auto;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			h1 {
+				font-size: 3rem;
+			}
+		}
 	}
 
 	.image {
