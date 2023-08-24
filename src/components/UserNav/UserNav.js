@@ -283,7 +283,7 @@ const UserNav = () => {
 					</div>
 
 					<div
-						className=' text-3xl text-primary_blue hover:bg-primary hover:text-white p-[0.5rem] cursor-pointer transition-all duration-300 ease-in-out rounded-full self-end flex justify-center items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-50 h-[4rem] w-[4rem] relative -bottom-[20rem] max-md:bottom-[10rem]'
+						className=' text-3xl text-primary_blue hover:bg-primary hover:text-white p-[0.5rem] cursor-pointer transition-all duration-300 ease-in-out rounded-full self-end flex justify-center items-center bg-white backdrop-filter backdrop-blur-md bg-opacity-50 h-[4rem] w-[4rem] relative -bottom-[5rem] max-md:bottom-[10rem]'
 						onClick={() => handlePosition()}
 					>
 						<MdOutlineMyLocation />

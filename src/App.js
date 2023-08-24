@@ -16,6 +16,7 @@ import Find from './pages/Find'
 import HomeNav from './components/HomeNav/HomeNav'
 import { AnimatePresence } from 'framer-motion'
 import { Toaster } from 'react-hot-toast'
+// require('dotenv').config()
 
 function App() {
 	const { user } = useContext(AuthContext)
