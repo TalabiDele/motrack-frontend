@@ -85,7 +85,7 @@ const Circle = () => {
 					</div>
 
 					<h1 className=' font-medium text-center'>
-						You have {user.circle.length} member(s)
+						You have {user?.circle?.length} member(s)
 					</h1>
 
 					{user.circle.map(
