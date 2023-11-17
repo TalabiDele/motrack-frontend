@@ -88,7 +88,7 @@ const Circle = () => {
 						You have {user?.circle?.length} member(s)
 					</h1>
 
-					{user.circle.map(
+					{user?.circle?.map(
 						(circle) =>
 							circle.id !== user.id && (
 								<div
