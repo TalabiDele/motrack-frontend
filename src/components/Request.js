@@ -131,7 +131,7 @@ const Request = () => {
 		>
 			<div
 				className={`${
-					user.requests.length > 4 && ' h-[35rem]'
+					user?.requests?.length > 4 && ' h-[35rem]'
 				} bg-white backdrop-filter backdrop-blur-md bg-opacity-50 rounded-3xl p-[1rem] shadow-gray/70 shadow-lg transition-all duration-300 ease-in-out relative`}
 			>
 				<div className=' w-[100%] flex justify-end'>
