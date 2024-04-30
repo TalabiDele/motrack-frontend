@@ -91,7 +91,7 @@ export const AuthProvider = ({ children }) => {
 
 			const data = await res.json()
 
-			console.log(data)
+			console.log(API_URL)
 
 			if (res.ok) {
 				setAddress(data?.address?.Address)
