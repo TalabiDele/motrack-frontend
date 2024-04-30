@@ -50,6 +50,8 @@ export const AuthProvider = ({ children }) => {
 			userDecisionTimeout: 5000,
 		})
 
+	console.log(coords)
+
 	useEffect(() => {
 		checkUserLoggedIn()
 
